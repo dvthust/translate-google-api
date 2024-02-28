@@ -1,5 +1,5 @@
 {
-  "name": "@dvt/translate-google-api",
+  "name": "@dvt.hust/translate-google-api",
   "version": "1.0.3",
   "description": "A free and unlimited API for Google Translate（contains single and multiple）",
   "main": "index.js",
