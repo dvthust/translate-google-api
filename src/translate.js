@@ -66,6 +66,10 @@ function translate(data, options) {
         proxy: options.proxy || false
       };
 
+      if (typeof options.paramsSerializer === 'function') {
+        extra.paramsSerializer = options.paramsSerializer;
+      }
+
       return axios(extra).then(function (response) {
         const res = util_1.parseMultiple(response.data[0]);
         return Promise.resolve(res);

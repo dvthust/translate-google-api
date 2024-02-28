@@ -1,5 +1,5 @@
 {
-  "name": "translate-google-api",
+  "name": "@dvt/translate-google-api",
   "version": "1.0.3",
   "description": "A free and unlimited API for Google Translate（contains single and multiple）",
   "main": "index.js",
@@ -16,9 +16,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Binhluan1234/react-google-translate-api"
+    "url": "https://github.com/dvthust/translate-google-api"
   },
-  "author": "LuanNguyen",
+  "author": "dvt",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0"
